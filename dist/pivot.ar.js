@@ -33,9 +33,9 @@
         });
         return $.pivotUtilities.locales.ar = {
             localeStrings: {
-                renderError: "حدث خطأ أثناء تشكيل الجدول المتشابك.",
+                renderError: "حدث خطأ أثناء تشكيل الجدول المحوري.",
                 computeError: "حدث خطأ أثناء الحساب.",
-                uiRenderError: "حدث خطأ أثناء عرض الجدول المتشابك.",
+                uiRenderError: "حدث خطأ أثناء عرض الجدول المحوري.",
                 selectAll: "اختيار الكل",
                 selectNone: "إلغاء الإختيار",
                 tooMany: "لا يمكن عرض النتائج لكثرتها",
@@ -45,12 +45,12 @@
                 by: "حسب"
             },
             aggregators: {
-                "عدد": tpl.count(frFmtInt),
+                "العدد": tpl.count(frFmtInt),
                 "عدد القيم المختلفة": tpl.countUnique(frFmtInt),
                 "مختلف القيم": tpl.listUnique(", "),
-                "مجموع": tpl.sum(frFmt),
+                "المجموع": tpl.sum(frFmt),
                 "مجموع الأعداد الصحيحة": tpl.sum(frFmtInt),
-                "معدل": tpl.average(frFmt),
+                "المعدل": tpl.average(frFmt),
                 "الأدنى": tpl.min(frFmt),
                 "الأقصى": tpl.max(frFmt),
                 "جمع الكسور": tpl.sumOverSum(frFmt),
@@ -65,7 +65,7 @@
             },
             renderers: {
                 "جدول": $.pivotUtilities.renderers["Table"],
-                "أعمدة توضيحية": $.pivotUtilities.renderers["Table Barchart"],
+                "أعمدة بيانية ": $.pivotUtilities.renderers["Table Barchart"],
                 "جدول تدرج الألوان": $.pivotUtilities.renderers["Heatmap"],
                 "تدرج أفقي": $.pivotUtilities.renderers["Row Heatmap"],
                 "تدرج  عمودي": $.pivotUtilities.renderers["Col Heatmap"]
