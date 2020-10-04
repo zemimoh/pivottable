@@ -1,3 +1,8 @@
+/*!
+ * Translated default messages for pivottable.
+ * Locale: AR (Arabic)
+ * Author: ZEMMOURI Mohamed <zemimoh@gmail.com>
+ */
 (function () {
     var callWithJQuery;
 
