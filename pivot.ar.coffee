@@ -1,3 +1,9 @@
+/*!
+ * Translated default messages for pivottable.
+ * Locale: AR (Arabic)
+ * Author: ZEMMOURI Mohamed <zemimoh@gmail.com>
+ */
+        
 callWithJQuery = (pivotModule) ->
     if typeof exports is "object" and typeof module is "object" # CommonJS
         pivotModule require("jquery")
