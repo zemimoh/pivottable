@@ -48,7 +48,7 @@
             return function (x) {
                 var result;
                 if (isNaN(x) || !isFinite(x)) {
-                    return "0"; // ZEMMOURI : Numbre Not Null
+                    return "0"; // ZEMMOURI : Number Not Null
                 }
                 if (x === 0 && !opts.showZero) {
                     return "";
